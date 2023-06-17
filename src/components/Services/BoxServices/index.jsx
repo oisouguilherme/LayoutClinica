@@ -2,11 +2,11 @@ export function BoxServices({title}){
   return (
     <div className=" w-72  p-3 bg-white shadow-2xl rounded-md space-y-2">
 
-      <div className="h-2 bg-cyan-400 rounded-lg">
+      <div className="h-2 bg-mainVerde rounded-lg">
       </div>
 
       <div className="flex items-center gap-4">
-        <div className="border-4 border-cyan-400 text-cyan-600 rounded-full p-4 w-28 h-16 flex items-center justify-center">
+        <div className="border-4 border-mainVerde text-mainAmarelo rounded-full p-4 w-28 h-16 flex items-center justify-center">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="24"
@@ -21,7 +21,7 @@ export function BoxServices({title}){
         </div>
 
         <div className="p-2">
-          <p className="font-bold">{title}</p>
+          <p className="font-bold ">{title}</p>
           <p className="text-sm">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero illo
             inventore eos in explicabo

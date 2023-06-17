@@ -9,7 +9,7 @@ export function Header() {
   };
 
   return (
-    <div className="px-4 xl:px-24 py-2 text-center bg-black bg-opacity-60 ">
+    <div className="px-4 xl:px-24 py-2 text-center bg-black bg-opacity-80 ">
       <div className="flex items-center justify-between">
         <a href="/menu">
           <img src={Logo} alt="logo" className="w-16 md:w-20" />
@@ -51,27 +51,27 @@ export function Header() {
                 </svg>
               </div>
               <ul className="flex flex-col items-center space-y-6 h-screen w-full px-2 bg-black bg-opacity-90">
-                <li className="sm:text-4xl text-3xl font-medium uppercase hover:scale-105 duration-300 text-cyan-400 hover:text-cyan-500">
+                <li className="sm:text-4xl text-3xl font-medium uppercase hover:scale-105 duration-300 text-mainVerde hover:text-mainAmarelo">
                   <a onClick={handleLinkClick} href="atendimento">
                     Início
                   </a>
                 </li>
-                <li className="sm:text-4xl text-3xl font-medium uppercase hover:scale-105 duration-300 text-cyan-400 hover:text-cyan-500">
+                <li className="sm:text-4xl text-3xl font-medium uppercase hover:scale-105 duration-300 text-mainVerde hover:text-mainAmarelo">
                   <a onClick={handleLinkClick} href="custo">
                     Clinica
                   </a>
                 </li>
-                <li className="sm:text-4xl text-3xl font-medium uppercase hover:scale-105 duration-300 text-cyan-400 hover:text-cyan-500">
+                <li className="sm:text-4xl text-3xl font-medium uppercase hover:scale-105 duration-300 text-mainVerde hover:text-mainAmarelo">
                   <a onClick={handleLinkClick} href="equipe">
                     Especialidades
                   </a>
                 </li>
-                <li className="sm:text-4xl text-3xl font-medium uppercase hover:scale-105 duration-300 text-cyan-400 hover:text-cyan-500">
+                <li className="sm:text-4xl text-3xl font-medium uppercase hover:scale-105 duration-300 text-mainVerde hover:text-mainAmarelo">
                   <a onClick={handleLinkClick} href="relatorio">
                     Dúvidas Frequentes
                   </a>
                 </li>
-                <li className="sm:text-4xl text-3xl font-medium uppercase hover:scale-105 duration-300 text-cyan-400 hover:text-cyan-500">
+                <li className="sm:text-4xl text-3xl font-medium uppercase hover:scale-105 duration-300 text-mainVerde hover:text-mainAmarelo">
                   <a onClick={handleLinkClick} href="clientes">
                     Contato
                   </a>
@@ -80,7 +80,7 @@ export function Header() {
                   <a
                     onClick={handleLinkClick}
                     href="info"
-                    className="flex items-center gap-2 bg-cyan-500 hover:bg-cyan-600 duration-300 px-16 py-3 text-white font-medium rounded-lg mt-24"
+                    className="flex items-center gap-2 bg-mainVerde px-16 py-3 text-white font-medium rounded-lg mt-24"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -100,27 +100,27 @@ export function Header() {
           </section>
 
           <ul className="hidden space-x-8 lg:flex items-center">
-            <li className="text-lg xl:text-xl text-white hover:text-gray-200 font-bold">
+            <li className="text-lg xl:text-xl text-white hover:text-mainAmarelo duration-300 font-bold">
               <a onClick={handleLinkClick} href="atendimento">
                 Início
               </a>
             </li>
-            <li className="text-lg xl:text-xl text-white hover:text-gray-200 font-bold">
+            <li className="text-lg xl:text-xl text-white hover:text-mainAmarelo duration-300 font-bold">
               <a onClick={handleLinkClick} href="custo">
                 Clinica
               </a>
             </li>
-            <li className="text-lg xl:text-xl text-white hover:text-gray-200 font-bold">
+            <li className="text-lg xl:text-xl text-white hover:text-mainAmarelo duration-300 font-bold">
               <a onClick={handleLinkClick} href="equipe">
                 Especialidades
               </a>
             </li>
-            <li className="text-lg xl:text-xl text-white hover:text-gray-200 font-bold">
+            <li className="text-lg xl:text-xl text-white hover:text-mainAmarelo duration-300 font-bold">
               <a onClick={handleLinkClick} href="relatorio">
                 Dúvidas Frequentes
               </a>
             </li>
-            <li className="text-lg xl:text-xl font-bold text-white hover:text-gray-200">
+            <li className="text-lg xl:text-xl font-bold text-white hover:text-mainAmarelo duration-300">
               <a onClick={handleLinkClick} href="clientes">
                 Contato
               </a>
@@ -129,7 +129,7 @@ export function Header() {
               <a
                 onClick={handleLinkClick}
                 href="info"
-                className="flex items-center gap-2 bg-cyan-500 hover:bg-cyan-600 duration-300 px-8 py-2 text-white font-medium rounded-lg"
+                className="flex items-center gap-2 bg-mainVerde hover:bg-opacity-90 duration-300 px-8 py-2 text-white font-medium rounded-lg"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

@@ -6,7 +6,8 @@ export default {
   theme: {
     extend: {
       colors:{
-        mainVerde: '#418587',
+        mainVerde: '#107474',
+        mainAmarelo:'#F0BE81',
       }
     },
   },
