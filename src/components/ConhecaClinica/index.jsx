@@ -11,7 +11,7 @@ export function ConhecaClinica(){
 
         <p className='text-lg font-bold pb-6'>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
 
-        <a href="#" className='bg-cyan-500 hover:bg-opacity-80 duration-300 px-12 py-3 text-white font-bold shadow-xl rounded-md'>Saiba mais</a>
+        <a href="#" className='bg-cyan-500 hover:bg-cyan-600 duration-300 px-12 py-3 text-white font-bold shadow-xl rounded-md'>Saiba mais</a>
       </div>
     </div>
   )

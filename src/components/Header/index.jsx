@@ -80,7 +80,7 @@ export function Header() {
                   <a
                     onClick={handleLinkClick}
                     href="info"
-                    className="flex items-center gap-2 bg-cyan-500 hover:bg-cyan-400 duration-300 px-16 py-3 text-white font-medium rounded-lg mt-24"
+                    className="flex items-center gap-2 bg-cyan-500 hover:bg-cyan-600 duration-300 px-16 py-3 text-white font-medium rounded-lg mt-24"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -129,7 +129,7 @@ export function Header() {
               <a
                 onClick={handleLinkClick}
                 href="info"
-                className="flex items-center gap-2 bg-cyan-500 hover:bg-cyan-400 duration-300 px-8 py-2 text-white font-medium rounded-lg"
+                className="flex items-center gap-2 bg-cyan-500 hover:bg-cyan-600 duration-300 px-8 py-2 text-white font-medium rounded-lg"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
