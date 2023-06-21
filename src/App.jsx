@@ -4,6 +4,7 @@ import { Services } from "./components/Services";
 import { ConhecaClinica } from "./components/ConhecaClinica";
 import { PerguntasFreq } from "./components/PerguntasFreq";
 import { Footer } from "./components/Footer";
+import { ComoChegar } from "./components/ComoChegar";
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <Services/>
       <ConhecaClinica/>
       <PerguntasFreq/>
+      <ComoChegar/>
       <Footer/>
     </>
   )
