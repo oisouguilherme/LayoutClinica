@@ -16,7 +16,7 @@ export function FaqPerguntas({ pergunta, resposta, icon }) {
           <img src={icon} alt="" />
           {pergunta}
         </button>
-        {showDiv && <div className="text-sm sm:text-base px-4">{resposta}</div>}
+        {showDiv && <div className="text-sm sm:text-base px-4 pt-2 text-start">{resposta}</div>}
       </div>
     </div>
   );

@@ -1,4 +1,4 @@
-export function ComoChegar(){
+export function ComoChegar() {
   return (
     <div className="grid md:grid-cols-2">
       <div>
@@ -16,11 +16,17 @@ export function ComoChegar(){
         <div className="sm:p-16 p-8 space-y-8 flex flex-col items-start">
           <h2 className="text-5xl font-medium text-white">Cliníca Certa</h2>
           <p className="text-lg text-gray-50">
-            R. Belo Horizonte, 421 - Centro <br />Buritis - MG, 38660-000
+            R. Belo Horizonte, 421 - Centro <br />
+            Buritis - MG, 38660-000
           </p>
 
           <p className="text-gray-100">Lorem ipsum dolor sit amet.</p>
-          <a href="#" className="bg-white hover:bg-gray-200 duration-300 text-mainVerde text-lg font-medium px-12 py-3 rounded-lg">Como chegar</a>
+          <a
+            href="#"
+            className="bg-white hover:bg-gray-200 duration-300 text-mainVerde text-lg font-medium px-12 py-3 rounded-lg"
+          >
+            Como chegar
+          </a>
         </div>
       </div>
     </div>

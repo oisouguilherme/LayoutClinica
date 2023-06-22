@@ -5,6 +5,9 @@ import { ConhecaClinica } from "./components/ConhecaClinica";
 import { PerguntasFreq } from "./components/PerguntasFreq";
 import { Footer } from "./components/Footer";
 import { ComoChegar } from "./components/ComoChegar";
+import { MainTop } from "./components/MainTop";
+import { TiposDeAtendimento } from "./components/mainMid";
+import { SlideCarroussel } from "./components/MainBottom";
 
 
 function App() {
@@ -16,6 +19,9 @@ function App() {
       </div>
       <Services/>
       <ConhecaClinica/>
+      <MainTop/>
+      <TiposDeAtendimento/>
+      <SlideCarroussel/>
       <PerguntasFreq/>
       <ComoChegar/>
       <Footer/>
